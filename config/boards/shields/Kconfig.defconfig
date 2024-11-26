@@ -1,4 +1,3 @@
-# https://zmk.dev/docs/development/hardware-integration/new-shield#kconfigdefconfig
 if SHIELD_OCEAN_LEFT
 
 config ZMK_KEYBOARD_NAME
