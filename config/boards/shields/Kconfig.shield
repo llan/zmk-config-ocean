@@ -1,0 +1,6 @@
+# https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
+config SHIELD_OCEAN_LEFT
+    def_bool $(shields_list_contains,ocean_left)
+
+config SHIELD_OCEAN_RIGHT
+    def_bool $(shields_list_contains,ocean_right)

@@ -1,0 +1,17 @@
+# https://zmk.dev/docs/development/hardware-integration/new-shield#kconfigdefconfig
+if SHIELD_OCEAN_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Ocean"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_OCEAN_LEFT || SHIELD_OCEAN_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
