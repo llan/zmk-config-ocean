@@ -29,8 +29,8 @@
    &kp GRAVE  &kp N1    &kp N2    &kp N3     &kp N4     &kp N5               &kp N6     &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
    &kp TAB    &kp Q     &kp W     &kp F      &kp P      &kp B                &kp J      &kp L   &kp U      &kp Y     &kp SEMI     &kp BSLH
    &kp CAPS   &kp A     &kp R     &kp S      &kp T      &kp G                &kp M      &kp N   &kp E      &kp I     &kp O  &kp RET
-   &kp LSHFT  &kp Z     &kp X     &kp C      &kp D      &kp V &mo 1 &kp SPACE &kp QMARK                &mo 1 &kp QMARK &kp QMARK &kp K      &kp H   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
-   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp LALT   &kp LGUI &kp QMARK             &kp QMARK &kp SPACE  &mo 1   &kp LARW   &kp DARW  &kp UARW  &kp RARW
+   &kp LSHFT  &kp Z     &kp X     &kp C      &kp D      &kp V &kp N1 &kp N2 &kp N3                &dp N1 &kp N2 &kp N3 &kp K      &kp H   &kp COMMA  &kp DOT   &kp FSLH  &kp APOS
+   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE                   &kp N4 &kp N5 &kp N6             &kp N4 &kp N5  &kp N6   &kp LARW   &kp DARW  &kp UARW  &kp RARW
                         >;
                 };
                 lower_layer {
