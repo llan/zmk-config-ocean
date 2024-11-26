@@ -23,3 +23,5 @@ include:
     shield: ocean_left
   - board: nice_nano_v2
     shield: ocean_right
+  - board: nice_nano_v2
+    shield: settings_reset
